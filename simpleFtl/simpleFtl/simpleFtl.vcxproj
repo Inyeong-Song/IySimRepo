@@ -18,6 +18,31 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CatGc.cpp" />
+    <ClCompile Include="DualPool.cpp" />
+    <ClCompile Include="DualpoolWearLeveling.cpp" />
+    <ClCompile Include="GreedyGc.cpp" />
+    <ClCompile Include="LoadWorkfile.cpp" />
+    <ClCompile Include="ResultReport.cpp" />
+    <ClCompile Include="SectorMappingTable.cpp" />
+    <ClCompile Include="SimpleFtl.cpp" />
+    <ClCompile Include="VirtualBlock.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CatGc.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="DualPool.h" />
+    <ClInclude Include="DualpoolWearLeveling.h" />
+    <ClInclude Include="GreedyGc.h" />
+    <ClInclude Include="LoadWorkfile.h" />
+    <ClInclude Include="ResultReport.h" />
+    <ClInclude Include="SectorMappingTable.h" />
+    <ClInclude Include="SimpleFtl.h" />
+    <ClInclude Include="SsdRequestFormat.h" />
+    <ClInclude Include="VirtualBlock.h" />
+    <ClInclude Include="VirtualDie.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,9 +163,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
