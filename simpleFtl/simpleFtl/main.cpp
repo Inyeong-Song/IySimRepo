@@ -1,4 +1,4 @@
-﻿#include "Common.h"
+﻿#include <iostream>
 
 int main()
 {
