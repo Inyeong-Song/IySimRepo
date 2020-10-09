@@ -2,5 +2,6 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    printf("simpleFtl Start\n");
+    return 0;
 }
